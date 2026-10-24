@@ -1,0 +1,12 @@
+# গোপন তথ্য — কখনো গিটহাবে দেবেন না
+.env
+*.env
+!.env.example
+
+# ডাটাবেস ও ক্যাশ
+*.db
+*.db-journal
+__pycache__/
+*.pyc
+venv/
+.venv/
